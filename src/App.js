@@ -20,7 +20,7 @@ export default class PersonList extends React.Component {
   }
 
   stock (fromCCY, toCCY) {
-    axios.get(`https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency=${fromCCY}&to_currency=${toCCY}&apikey=QFLM4ANJ0UEIOLFA`)
+    axios.get(`https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency=${fromCCY}&to_currency=${toCCY}&apikey=GetYourOwn:)`)
       .then(res => {
         console.log("Done");
         const arr = [];
